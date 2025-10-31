@@ -77,7 +77,7 @@ export default function Hero() {
                 <div className="w-64 h-64 bg-gradient-to-br from-primary/20 to-accent/20 rounded-xl flex items-center justify-center">
                   <div className="text-center">
                     <Code2 size={64} className="mx-auto text-primary mb-4" />
-                    <p className="text-sm text-muted-foreground">Your Profile Image</p>
+                    <p className="text-sm text-muted-foreground">https://cdn.discordapp.com/attachments/1423969864422260786/1433797028579905637/20251028_053339.jpg?ex=6905ff0a&is=6904ad8a&hm=7bcd853d53a8eba0a64916633dca69368c1648484f1d73fadc38a796945fc5e3&</p>
                   </div>
                 </div>
               </div>
