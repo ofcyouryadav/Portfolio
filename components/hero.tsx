@@ -1,7 +1,8 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { ArrowRight, Code2 } from "lucide-react"
+import { ArrowRight } from "lucide-react"
+import Image from "next/image"
 
 export default function Hero() {
   const containerVariants = {
@@ -21,24 +22,39 @@ export default function Hero() {
 
   return (
     <section className="min-h-screen flex items-center justify-center pt-20 px-4 md:px-8">
-      <motion.div className="max-w-4xl w-full" variants={containerVariants} initial="hidden" animate="visible">
+      <motion.div
+        className="max-w-4xl w-full"
+        variants={containerVariants}
+        initial="hidden"
+        animate="visible"
+      >
         <div className="grid md:grid-cols-2 gap-8 items-center">
           {/* Left Content */}
           <motion.div variants={itemVariants} className="space-y-6">
             <div className="space-y-2">
-              <motion.h1 className="text-5xl md:text-6xl font-bold text-balance" variants={itemVariants}>
+              <motion.h1
+                className="text-5xl md:text-6xl font-bold text-balance"
+                variants={itemVariants}
+              >
                 <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
                   Yadav.Dev
                 </span>
               </motion.h1>
-              <motion.h2 className="text-2xl md:text-3xl text-muted-foreground" variants={itemVariants}>
+              <motion.h2
+                className="text-2xl md:text-3xl text-muted-foreground"
+                variants={itemVariants}
+              >
                 Full Stack & Discord Bot Developer
               </motion.h2>
             </div>
 
-            <motion.p className="text-lg text-muted-foreground leading-relaxed" variants={itemVariants}>
-              I craft beautiful, responsive web applications and powerful Discord bots. With expertise in modern
-              JavaScript frameworks and backend technologies, I turn ideas into reality.
+            <motion.p
+              className="text-lg text-muted-foreground leading-relaxed"
+              variants={itemVariants}
+            >
+              I craft beautiful, responsive web applications and powerful
+              Discord bots. With expertise in modern JavaScript frameworks and
+              backend technologies, I turn ideas into reality.
             </motion.p>
 
             <motion.div className="flex flex-wrap gap-4" variants={itemVariants}>
@@ -57,14 +73,21 @@ export default function Hero() {
               </a>
             </motion.div>
 
-            <motion.div className="flex gap-8 pt-8 border-t border-border" variants={itemVariants}>
+            <motion.div
+              className="flex gap-8 pt-8 border-t border-border"
+              variants={itemVariants}
+            >
               <div>
                 <div className="text-2xl font-bold text-primary">50+</div>
-                <div className="text-sm text-muted-foreground">Projects Completed</div>
+                <div className="text-sm text-muted-foreground">
+                  Projects Completed
+                </div>
               </div>
               <div>
                 <div className="text-2xl font-bold text-accent">5+</div>
-                <div className="text-sm text-muted-foreground">Years Experience</div>
+                <div className="text-sm text-muted-foreground">
+                  Years Experience
+                </div>
               </div>
             </motion.div>
           </motion.div>
@@ -74,12 +97,13 @@ export default function Hero() {
             <div className="relative w-72 h-72">
               <div className="absolute inset-0 bg-gradient-to-r from-primary to-accent rounded-2xl blur-3xl opacity-20 animate-float"></div>
               <div className="relative w-full h-full bg-gradient-to-br from-card to-card/50 rounded-2xl border-2 border-primary/30 overflow-hidden flex items-center justify-center">
-                <div className="w-64 h-64 bg-gradient-to-br from-primary/20 to-accent/20 rounded-xl flex items-center justify-center">
-                  <div className="text-center">
-                    <Code2 size={64} className="mx-auto text-primary mb-4" />
-                    <p className="text-sm text-muted-foreground">https://cdn.discordapp.com/attachments/1423969864422260786/1433797028579905637/20251028_053339.jpg?ex=6905ff0a&is=6904ad8a&hm=7bcd853d53a8eba0a64916633dca69368c1648484f1d73fadc38a796945fc5e3&</p>
-                  </div>
-                </div>
+                <Image
+                  src="/placeholder.jpg" // 👈 Place your image inside public/profile.jpg
+                  alt="Yadav.Dev Profile"
+                  width={256}
+                  height={256}
+                  className="rounded-xl object-cover"
+                />
               </div>
             </div>
           </motion.div>
