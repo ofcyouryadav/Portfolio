@@ -17,7 +17,7 @@ export default function Contact() {
     {
       icon: Github,
       label: "GitHub",
-      url: "https://github.com",
+      url: "https://github.com/ofcyouryadav",
       color: "hover:text-gray-400",
     },
     {
@@ -29,13 +29,13 @@ export default function Contact() {
     {
       icon: Instagram,
       label: "Instagram",
-      url: "https://instagram.com",
+      url: "https://instagram.com/ofcyouryamraj.xd",
       color: "hover:text-pink-400",
     },
     {
       icon: MessageCircle,
       label: "Discord",
-      url: "#",
+      url: "https://discord.com/users/867420007558021141",
       color: "hover:text-indigo-400",
     },
   ]
@@ -91,10 +91,10 @@ export default function Contact() {
                   <div className="flex items-center gap-3">
                     <Mail className="text-primary flex-shrink-0" size={20} />
                     <a
-                      href="mailto:hello@yadav.dev"
+                      href="mailto:mrnewar1@gmail.com"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      hello@yadav.dev
+                      mrnewar1@gmail.com
                     </a>
                   </div>
                 </div>
