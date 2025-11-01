@@ -42,7 +42,7 @@ export default function Footer() {
           </div>
 
           <div className="border-t border-border pt-6 text-center text-sm text-muted-foreground">
-            <p>© {currentYear} Yadav.Dev. All rights reserved. Built with React, Next.js, and Tailwind CSS.</p>
+            <p>© {currentYear} Made with ❤️‍🩹 by Yadav.Dev. All rights reserved.</p>
           </div>
         </motion.div>
       </div>
