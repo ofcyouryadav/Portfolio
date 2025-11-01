@@ -13,18 +13,18 @@ export default function Projects() {
       tags: ["React", "Node.js", "MongoDB", "Stripe"],
       image: "🛍️",
       links: {
-        github: "#",
-        live: "#",
+        github: "https://github.com/ofcyouryadav",
+        live: "https://discord.gg/zenkaix",
       },
     },
     {
       title: "Discord Bot Manager",
       description:
         "Advanced Discord bot with moderation tools, music streaming, and custom commands. Built with discord.py and integrated with multiple APIs.",
-      tags: ["Python", "Discord.py", "API Integration"],
+      tags: ["javascript", "Discord.js", "API Integration"],
       image: "🤖",
       links: {
-        github: "#",
+        github: "https://github.com/ofcyouryadav",
       },
     },
     {
@@ -34,8 +34,8 @@ export default function Projects() {
       tags: ["React", "Firebase", "Tailwind CSS"],
       image: "✅",
       links: {
-        github: "#",
-        live: "#",
+        github: "https://github.com/ofcyouryadav",
+        live: "https://discord.gg/zenkiax",
       },
     },
     {
@@ -45,19 +45,19 @@ export default function Projects() {
       tags: ["Next.js", "Framer Motion", "Tailwind CSS"],
       image: "💼",
       links: {
-        github: "#",
-        live: "#",
+        github: "https://github.com/ofcyouryadav/Portfolio/",
+        live: "https://yadavdev.dpdns.org",
       },
     },
     {
-      title: "Weather Dashboard",
+      title: "Music Website",
       description:
-        "Real-time weather application that provides detailed forecasts and weather alerts. Integrated with multiple weather APIs for accurate data.",
-      tags: ["React", "API", "Chart.js"],
-      image: "🌤️",
+        "Bringing nonstop vibes to your server! This music bot lets you play songs, create playlists, and control the flow of music with ease. Whether you’re chilling, gaming, or partying, it’s always ready to drop the perfect beat.",
+      tags: ["CSS", "Html", "JavaScript"],
+      image: "🎵",
       links: {
-        github: "#",
-        live: "#",
+        github: "https://github.com/ofcyouryadav/destroyer-music",
+        live: "https://destroyer-music.vercel.app/",
       },
     },
     {
