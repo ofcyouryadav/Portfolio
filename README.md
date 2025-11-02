@@ -73,7 +73,7 @@ If you face any issues or need help, you can:
 
 Create a Pull Request / Issue here on GitHub
 
-Or join our Support Server: Discord Invite
+Or join our Support Server: https://discord.gg/zenkaix
 
 
 
@@ -99,4 +99,4 @@ Let’s help more developers create awesome portfolios with open-source tools.
 
 ---
 
-Made with ❤️ and code by (Yadav.Dev)[https://github.com/ofcyouryadav]
+Made with ❤️ and code by Yadav.Dev
