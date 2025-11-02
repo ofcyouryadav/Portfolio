@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "Yadav.Dev",
     images: [
       {
-        url: "/placeholder.jpg", // this image is inside public/
+        url: "/yadav.jpg", // this image is inside public/
         width: 1200,
         height: 630,
         alt: "Yadav.Dev Portfolio Preview",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Yadav.Dev - Full Stack & Discord Bot Developer",
     description: "Coding is my language, love is my framework❤️‍🩹.",
-    images: ["/placeholder.jpg"], // same image for Twitter preview
+    images: ["/yadav.jpg"], // same image for Twitter preview
   },
 }
 
