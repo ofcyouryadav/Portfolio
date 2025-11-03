@@ -2,7 +2,7 @@
   <img src="public/yadav.jpg" alt="HeR.YaDav.Dev Banner" width="100%" />
 </p>
 
-# 🌐 Public Portfolio Template
+# 🌐 Public Portfolio
 
 Welcome to the **Public Portfolio** — a simple, clean, and modern portfolio template made using **HTML**, **TypeScript**, and **JavaScript**.  
 This project is open for everyone to use, customize, and deploy — with **credit required** to the original creator **Yadav.Dev** 💻
