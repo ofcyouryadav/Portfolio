@@ -11,7 +11,7 @@ const _sora = Sora({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Yadav.Dev - Full Stack & Discord Bot Developer",
   description: "Coding is my language, love is my framework❤️‍🩹.",
-  generator: "v0.app",
+  generator: "hacker.op",
   openGraph: {
     title: "Yadav.Dev - Full Stack & Discord Bot Developer",
     description: "Coding is my language, love is my framework❤️‍🩹.",
